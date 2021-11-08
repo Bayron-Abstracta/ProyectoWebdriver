@@ -1,0 +1,4 @@
+# Código gitignore 
+node_modules
+allure_results
+package-lock.json
