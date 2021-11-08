@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598234512265' stop='1598234525309'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598234512265' status='passed' stop='1598234522082'>
+            <name>Buscar Printed Chiffon Dress</name>
+            <title>Buscar Printed Chiffon Dress</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1598234512268' status='passed' stop='1598234512268'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598234519799' status='passed' stop='1598234519799'>
+                    <name>Buscar artículo: Printed Chiffon Dress</name>
+                    <title>Buscar artículo: Printed Chiffon Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598234522069' status='passed' stop='1598234522069'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1598234522083' status='passed' stop='1598234525308'>
+            <name>Buscar Blouse</name>
+            <title>Buscar Blouse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1598234522083' status='passed' stop='1598234522083'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598234524152' status='passed' stop='1598234524152'>
+                    <name>Buscar artículo: Blouse</name>
+                    <title>Buscar artículo: Blouse</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598234525299' status='passed' stop='1598234525299'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

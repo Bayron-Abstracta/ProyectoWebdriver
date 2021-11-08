@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598235451303' stop='1598235474238'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598235451303' status='failed' stop='1598235474237'>
+            <name>Validar Menú</name>
+            <title>Validar Menú</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1598235451305' status='passed' stop='1598235451305'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2d954ca8-2293-4d30-8843-4b7fc9e70465-attachment.png' type='image/png' size='884800'/>
+            </attachments>
+            <failure>
+                <message>Expected &lt;[object Object]> to be there, but it is not there.</message>
+                <stack-trace>AssertionError: Expected &lt;[object Object]> to be there, but it is not there.
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:25:34)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

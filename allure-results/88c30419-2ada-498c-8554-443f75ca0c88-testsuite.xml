@@ -1,0 +1,212 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598388359957' stop='1598388389245'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598388359957' status='passed' stop='1598388365844'>
+            <name>Buscar Printed Chiffon Dress</name>
+            <title>Buscar Printed Chiffon Dress</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598388359959' status='passed' stop='1598388359959'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388364949' status='passed' stop='1598388364949'>
+                    <name>Buscar artículo: Printed Chiffon Dress</name>
+                    <title>Buscar artículo: Printed Chiffon Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388365825' status='passed' stop='1598388365825'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1598388365844' status='passed' stop='1598388368792'>
+            <name>Buscar Blouse</name>
+            <title>Buscar Blouse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598388365844' status='passed' stop='1598388365844'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388367617' status='passed' stop='1598388367617'>
+                    <name>Buscar artículo: Blouse</name>
+                    <title>Buscar artículo: Blouse</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388368771' status='passed' stop='1598388368771'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1598388368792' status='passed' stop='1598388375737'>
+            <name>Validar Menú</name>
+            <title>Validar Menú</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598388368793' status='passed' stop='1598388368793'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388370376' status='passed' stop='1598388370376'>
+                    <name>Obtener menú</name>
+                    <title>Obtener menú</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388372701' status='passed' stop='1598388372701'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='405a8b9d-2e94-49c5-95e8-95c8662457a7-attachment.png' type='image/png' size='492135'/>
+                <attachment title='Screenshot' source='096c5301-6fce-42e5-b864-ba872c165a0f-attachment.png' type='image/png' size='955069'/>
+            </attachments>
+        </test-case>
+        <test-case start='1598388375737' status='passed' stop='1598388378460'>
+            <name>Validar direccionamiento Logo</name>
+            <title>Validar direccionamiento Logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598388375738' status='passed' stop='1598388375738'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388377164' status='passed' stop='1598388377164'>
+                    <name>Obtener Logo</name>
+                    <title>Obtener Logo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1598388378460' status='passed' stop='1598388381443'>
+            <name>Validar direccionamiento Cart</name>
+            <title>Validar direccionamiento Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598388378461' status='passed' stop='1598388378461'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388380314' status='passed' stop='1598388380314'>
+                    <name>Obtener Carro</name>
+                    <title>Obtener Carro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1598388381443' status='passed' stop='1598388386486'>
+            <name>Validar direccionamiento Cart</name>
+            <title>Validar direccionamiento Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598388381444' status='passed' stop='1598388381444'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388383417' status='passed' stop='1598388383417'>
+                    <name>Obtener Contact Us</name>
+                    <title>Obtener Contact Us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598388384582' status='passed' stop='1598388384582'>
+                    <name>Escribir Email</name>
+                    <title>Escribir Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1598388386486' status='passed' stop='1598388389244'>
+            <name>Comparación de Logo</name>
+            <title>Comparación de Logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='722327a6-eca3-4839-9fc9-fca451d326d0-attachment.png' type='image/png' size='955069'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

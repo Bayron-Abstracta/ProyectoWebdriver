@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598234310369' stop='1598234321459'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598234310369' status='broken' stop='1598234318092'>
+            <name>Buscar Printed Chiffon Dress</name>
+            <title>Buscar Printed Chiffon Dress</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1598234310371' status='passed' stop='1598234310371'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598234316914' status='passed' stop='1598234316914'>
+                    <name>Buscar artículo: Printed Chiffon Dress</name>
+                    <title>Buscar artículo: Printed Chiffon Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='531d57a8-7dcb-4187-af31-6bdb14fb840c-attachment.png' type='image/png' size='2220007'/>
+            </attachments>
+            <failure>
+                <message>Evaluation failed: DOMException: Failed to execute 'evaluate' on 'Document': The string './/*[contains(@id, "name") and normalize-space() = ""search_query_top"]' is not a valid XPath expression.
+                    at __puppeteer_evaluation_script__:3:39</message>
+                <stack-trace>Evaluation failed: DOMException: Failed to execute 'evaluate' on 'Document': The string './/*[contains(@id, "name") and normalize-space() = ""search_query_top"]' is not a valid XPath expression.
+                    at __puppeteer_evaluation_script__:3:39
+                Error: Evaluation failed: DOMException: Failed to execute 'evaluate' on 'Document': The string './/*[contains(@id, "name") and normalize-space() = ""search_query_top"]' is not a valid XPath expression.
+                    at ExecutionContext._evaluateInternal (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\puppeteer-core\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async ElementHandle.evaluateHandle (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\puppeteer-core\lib\cjs\puppeteer\common\JSHandle.js:100:16)
+                    at async ElementHandle.$x (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\puppeteer-core\lib\cjs\puppeteer\common\JSHandle.js:700:29)
+                    at async DOMWorld.$x (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\puppeteer-core\lib\cjs\puppeteer\common\DOMWorld.js:97:23)
+                    at async DevToolsDriver.findElement (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\devtools\build\utils.js:102:36)
+                    at async Browser.wrappedCommand (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\devtools\build\devtoolsdriver.js:92:18)
+                    at async Browser.$ (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+                    at async Browser.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at global.$ (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\runner\build\index.js:189:36)
+                    at HomePage.get barraDeBusqueda [as barraDeBusqueda] (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\home.page.js:6:35)
+                    at HomePage.buscar (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\home.page.js:30:40)
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:14:22)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598234318093' status='broken' stop='1598234321458'>
+            <name>Buscar Blouse</name>
+            <title>Buscar Blouse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1598234318093' status='passed' stop='1598234318093'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598234319621' status='passed' stop='1598234319621'>
+                    <name>Buscar artículo: Blouse</name>
+                    <title>Buscar artículo: Blouse</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f73d7412-af73-4f4a-aa05-3cfdd0925088-attachment.png' type='image/png' size='2308809'/>
+            </attachments>
+            <failure>
+                <message>Evaluation failed: DOMException: Failed to execute 'evaluate' on 'Document': The string './/*[contains(@id, "name") and normalize-space() = ""search_query_top"]' is not a valid XPath expression.
+                    at __puppeteer_evaluation_script__:3:39</message>
+                <stack-trace>Evaluation failed: DOMException: Failed to execute 'evaluate' on 'Document': The string './/*[contains(@id, "name") and normalize-space() = ""search_query_top"]' is not a valid XPath expression.
+                    at __puppeteer_evaluation_script__:3:39
+                Error: Evaluation failed: DOMException: Failed to execute 'evaluate' on 'Document': The string './/*[contains(@id, "name") and normalize-space() = ""search_query_top"]' is not a valid XPath expression.
+                    at ExecutionContext._evaluateInternal (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\puppeteer-core\lib\cjs\puppeteer\common\ExecutionContext.js:217:19)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async ElementHandle.evaluateHandle (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\puppeteer-core\lib\cjs\puppeteer\common\JSHandle.js:100:16)
+                    at async ElementHandle.$x (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\puppeteer-core\lib\cjs\puppeteer\common\JSHandle.js:700:29)
+                    at async DOMWorld.$x (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\puppeteer-core\lib\cjs\puppeteer\common\DOMWorld.js:97:23)
+                    at async DevToolsDriver.findElement (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\devtools\build\utils.js:102:36)
+                    at async Browser.wrappedCommand (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\devtools\build\devtoolsdriver.js:92:18)
+                    at async Browser.$ (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+                    at async Browser.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at global.$ (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\runner\build\index.js:189:36)
+                    at HomePage.get barraDeBusqueda [as barraDeBusqueda] (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\home.page.js:6:35)
+                    at HomePage.buscar (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\home.page.js:30:40)
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:14:22)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

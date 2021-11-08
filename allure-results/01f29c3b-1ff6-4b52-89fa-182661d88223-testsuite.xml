@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598239460698' stop='1598239484553'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598239460698' status='failed' stop='1598239484552'>
+            <name>Validar direccionamiento Cart</name>
+            <title>Validar direccionamiento Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1598239460700' status='passed' stop='1598239460700'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598239467292' status='passed' stop='1598239467292'>
+                    <name>Obtener Contact Us</name>
+                    <title>Obtener Contact Us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598239477360' status='passed' stop='1598239477360'>
+                    <name>Escribir Email</name>
+                    <title>Escribir Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='18920e7d-0b60-4ae6-88d5-dd493cdbb6a8-attachment.png' type='image/png' size='185716'/>
+            </attachments>
+            <failure>
+                <message>expected 'There is 1 error\n\nThe message cannot be blank.' to equal 'The message cannot be blank.'</message>
+                <stack-trace>AssertionError: expected 'There is 1 error\n\nThe message cannot be blank.' to equal 'The message cannot be blank.'
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:58:54)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

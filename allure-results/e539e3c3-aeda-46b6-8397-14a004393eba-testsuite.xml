@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597942515575' stop='1597942533747'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1597942515575' status='broken' stop='1597942533746'>
+            <name>Validar Menú</name>
+            <title>Validar Menú</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1597942515579' status='passed' stop='1597942515579'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='81c5c32e-7917-4ec8-9d78-7117268e9624-attachment.png' type='image/png' size='2220007'/>
+            </attachments>
+            <failure>
+                <message>element ("[class="sfHoverForce"]") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("[class="sfHoverForce"]") still not clickable after 10000ms
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\commands\browser\waitUntil.js:34:15
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Element.waitForClickable (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\commands\element\waitForClickable.js:14:15)
+                    at Element.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at BasePage.clickearElemento (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\base.page.js:21:17)
+                    at HomePage.clickMenu (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\home.page.js:22:18)
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:22:18)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

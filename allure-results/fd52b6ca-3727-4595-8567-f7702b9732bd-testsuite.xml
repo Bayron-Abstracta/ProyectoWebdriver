@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597940709260' stop='1597940722518'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1597940709261' status='broken' stop='1597940718771'>
+            <name>Buscar Printed Chiffon Dress</name>
+            <title>Buscar Printed Chiffon Dress</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1597940709264' status='passed' stop='1597940709264'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940717294' status='passed' stop='1597940717294'>
+                    <name>Buscar artículo: undefined</name>
+                    <title>Buscar artículo: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='37e5c4ba-d8d9-4531-be82-b39fa1615a4d-attachment.png' type='image/png' size='2221533'/>
+            </attachments>
+            <failure>
+                <message>"keys" command requires a string or array of strings as parameter</message>
+                <stack-trace>Error: "keys" command requires a string or array of strings as parameter
+                    at Element.keys (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\commands\browser\keys.js:20:11)
+                    at Element.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at BasePage.clearAndSendKeys (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\base.page.js:35:17)
+                    at HomePage.buscar (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\home.page.js:16:18)
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:12:22)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597940718772' status='broken' stop='1597940722517'>
+            <name>Buscar Blouse</name>
+            <title>Buscar Blouse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1597940718772' status='passed' stop='1597940718772'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940720385' status='passed' stop='1597940720386'>
+                    <name>Buscar artículo: undefined</name>
+                    <title>Buscar artículo: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9462b053-093d-4c9f-9464-2ba47ede80a9-attachment.png' type='image/png' size='2310578'/>
+            </attachments>
+            <failure>
+                <message>"keys" command requires a string or array of strings as parameter</message>
+                <stack-trace>Error: "keys" command requires a string or array of strings as parameter
+                    at Element.keys (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\commands\browser\keys.js:20:11)
+                    at Element.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at BasePage.clearAndSendKeys (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\base.page.js:35:17)
+                    at HomePage.buscar (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\home.page.js:16:18)
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:12:22)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

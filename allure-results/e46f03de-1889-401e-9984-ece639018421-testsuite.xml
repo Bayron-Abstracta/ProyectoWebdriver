@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598304525753' stop='1598304535893'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598304525753' status='broken' stop='1598304535893'>
+            <name>Validar direccionamiento Cart</name>
+            <title>Validar direccionamiento Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598304525755' status='passed' stop='1598304525755'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598304529849' status='passed' stop='1598304529849'>
+                    <name>Obtener Contact Us</name>
+                    <title>Obtener Contact Us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598304535482' status='passed' stop='1598304535482'>
+                    <name>Escribir Email</name>
+                    <title>Escribir Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='df7f23f0-b2dc-41c4-bc9d-870b0cd34b1e-attachment.png' type='image/png' size='108209'/>
+            </attachments>
+            <failure>
+                <message>"keys" command requires a string or array of strings as parameter</message>
+                <stack-trace>Error: "keys" command requires a string or array of strings as parameter
+                    at Element.keys (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\commands\browser\keys.js:20:11)
+                    at Element.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at BasePage.clearAndSendKeys (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\base.page.js:35:17)
+                    at HomePage.escribirEmail (C:\Users\cecil\Desktop\ProyectoFinalTest\pages\home.page.js:37:18)
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:52:18)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

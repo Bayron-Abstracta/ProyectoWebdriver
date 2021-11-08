@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598237692782' stop='1598237714875'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598237692783' status='broken' stop='1598237714874'>
+            <name>Validar direccionamiento Cart</name>
+            <title>Validar direccionamiento Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1598237692786' status='passed' stop='1598237692786'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d9633afb-46a5-4b67-85f5-ad2958ab557a-attachment.png' type='image/png' size='168525'/>
+            </attachments>
+            <failure>
+                <message>selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at Browser.findElements (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\utils\index.js:241:9)
+                    at Browser.$$ (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\webdriverio\build\commands\browser\$$.js:13:41)
+                    at Browser.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:88:30)
+                    at Browser.runCommandWithHooks (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at doesOneElementContainText (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\chai-webdriverio\dist\assertions\text.js:15:27)
+                    at Proxy.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\chai-webdriverio\dist\assertions\text.js:48:35)
+                    at Proxy.methodWrapper (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\chai\lib\chai\utils\addMethod.js:57:25)
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:41:46)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

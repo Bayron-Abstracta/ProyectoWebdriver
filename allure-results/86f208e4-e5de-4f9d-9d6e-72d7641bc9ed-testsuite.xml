@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598365016434' stop='1598365024571'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598365016434' status='passed' stop='1598365024570'>
+            <name>Validar Menú</name>
+            <title>Validar Menú</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598365016437' status='passed' stop='1598365016437'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598365020426' status='passed' stop='1598365020426'>
+                    <name>Obtener menú</name>
+                    <title>Obtener menú</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598365022379' status='passed' stop='1598365022379'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4b16ad17-709d-42e5-8006-3ae723c673eb-attachment.png' type='image/png' size='492135'/>
+                <attachment title='Screenshot' source='4bf7b247-341b-4ee7-8ee4-db2f0d90313e-attachment.png' type='image/png' size='955069'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

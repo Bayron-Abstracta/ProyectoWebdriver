@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597940461101' stop='1597940475543'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1597940461101' status='failed' stop='1597940470642'>
+            <name>Buscar Dress</name>
+            <title>Buscar Dress</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1597940461103' status='passed' stop='1597940461103'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940468132' status='passed' stop='1597940468132'>
+                    <name>Buscar artículo: Dress</name>
+                    <title>Buscar artículo: Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940469416' status='passed' stop='1597940469416'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940469426' status='passed' stop='1597940469426'>
+                    <name>Obtener resultado</name>
+                    <title>Obtener resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5997522a-675b-400e-98b0-4bfc7d18c677-attachment.png' type='image/png' size='743634'/>
+            </attachments>
+            <failure>
+                <message>expected 'Printed Chiffon Dress' to equal 'Dress'</message>
+                <stack-trace>AssertionError: expected 'Printed Chiffon Dress' to equal 'Dress'
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:14:62)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597940470643' status='failed' stop='1597940475542'>
+            <name>Buscar Blouse</name>
+            <title>Buscar Blouse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1597940470643' status='passed' stop='1597940470643'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940472231' status='passed' stop='1597940472231'>
+                    <name>Buscar artículo: Blouse</name>
+                    <title>Buscar artículo: Blouse</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940473430' status='passed' stop='1597940473430'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940473443' status='passed' stop='1597940473443'>
+                    <name>Obtener resultado</name>
+                    <title>Obtener resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0416d3dd-4c3a-41f4-b4b6-0b5e451fb4cb-attachment.png' type='image/png' size='543066'/>
+            </attachments>
+            <failure>
+                <message>expected 'Printed Chiffon Dress' to equal 'Blouse'</message>
+                <stack-trace>AssertionError: expected 'Printed Chiffon Dress' to equal 'Blouse'
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:14:62)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

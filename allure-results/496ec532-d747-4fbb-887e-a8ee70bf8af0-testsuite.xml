@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598387964509' stop='1598387975997'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598387964509' status='failed' stop='1598387972278'>
+            <name>Validar direccionamiento Logo</name>
+            <title>Validar direccionamiento Logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598387964511' status='passed' stop='1598387964511'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598387969977' status='passed' stop='1598387969977'>
+                    <name>Obtener Logo</name>
+                    <title>Obtener Logo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3a2b65aa-183b-4b89-93ff-73ff040aa94a-attachment.png' type='image/png' size='956722'/>
+            </attachments>
+            <failure>
+                <message>Ingreso a la URL correcta: expected 'http://automationpractice.com/index.php' to include 'http://automationpractice.com/index.php3'</message>
+                <stack-trace>AssertionError: Ingreso a la URL correcta: expected 'http://automationpractice.com/index.php' to include 'http://automationpractice.com/index.php3'
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:41:37)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598387972279' status='passed' stop='1598387975996'>
+            <name>Validar direccionamiento Cart</name>
+            <title>Validar direccionamiento Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598387972281' status='passed' stop='1598387972281'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598387973954' status='passed' stop='1598387973954'>
+                    <name>Obtener Carro</name>
+                    <title>Obtener Carro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

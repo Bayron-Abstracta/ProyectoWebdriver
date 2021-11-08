@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598303229822' stop='1598303236616'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598303229822' status='failed' stop='1598303236614'>
+            <name>Validar direccionamiento Logo</name>
+            <title>Validar direccionamiento Logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598303229824' status='passed' stop='1598303229824'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598303234155' status='passed' stop='1598303234155'>
+                    <name>Obtener Logo</name>
+                    <title>Obtener Logo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9f6deca0-5794-49f8-a9b1-b8c0db9da823-attachment.png' type='image/png' size='956722'/>
+            </attachments>
+            <failure>
+                <message>Error: El logo no coincide con el original: expected 'http://automationpractice.com/index.php' to include {}</message>
+                <stack-trace>AssertionError: Error: El logo no coincide con el original: expected 'http://automationpractice.com/index.php' to include {}
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:32:37)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597940297654' stop='1597940310530'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1597940297655' status='failed' stop='1597940304951'>
+            <name>Buscar Dress</name>
+            <title>Buscar Dress</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1597940297658' status='passed' stop='1597940297658'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940301684' status='passed' stop='1597940301684'>
+                    <name>Buscar artículo: Dress</name>
+                    <title>Buscar artículo: Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940303356' status='passed' stop='1597940303356'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940303365' status='passed' stop='1597940303365'>
+                    <name>Obtener resultado</name>
+                    <title>Obtener resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='225154d3-5486-41d7-a88b-c9fb534c5404-attachment.png' type='image/png' size='742344'/>
+            </attachments>
+            <failure>
+                <message>expected 'TOP SELLERS' to equal 'Dress'</message>
+                <stack-trace>AssertionError: expected 'TOP SELLERS' to equal 'Dress'
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:14:62)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597940304952' status='failed' stop='1597940310529'>
+            <name>Buscar Blouse</name>
+            <title>Buscar Blouse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps>
+                <step start='1597940304952' status='passed' stop='1597940304952'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940306703' status='passed' stop='1597940306703'>
+                    <name>Buscar artículo: Blouse</name>
+                    <title>Buscar artículo: Blouse</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940308600' status='passed' stop='1597940308600'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597940308611' status='passed' stop='1597940308611'>
+                    <name>Obtener resultado</name>
+                    <title>Obtener resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4763f4ae-6a3e-4521-b401-f8dfd2dd8a2e-attachment.png' type='image/png' size='537149'/>
+            </attachments>
+            <failure>
+                <message>expected 'TOP SELLERS' to equal 'Blouse'</message>
+                <stack-trace>AssertionError: expected 'TOP SELLERS' to equal 'Blouse'
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:14:62)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

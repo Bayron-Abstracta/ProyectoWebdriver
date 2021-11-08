@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598305975520' stop='1598305981670'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1598305975520' status='broken' stop='1598305981670'>
+            <name>Validar direccionamiento Cart</name>
+            <title>Validar direccionamiento Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1598305975523' status='passed' stop='1598305975523'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598305979843' status='passed' stop='1598305979843'>
+                    <name>Obtener Contact Us</name>
+                    <title>Obtener Contact Us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1598305981103' status='passed' stop='1598305981103'>
+                    <name>Escribir Email</name>
+                    <title>Escribir Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e7138d71-1b8c-479b-ac2d-779f592feb4d-attachment.png' type='image/png' size='113420'/>
+            </attachments>
+            <failure>
+                <message>resultadoBlank.waitForExist is not a function</message>
+                <stack-trace>TypeError: resultadoBlank.waitForExist is not a function
+                    at Context.&lt;anonymous> (C:\Users\cecil\Desktop\ProyectoFinalTest\tests\automationpractice.test.js:51:24)
+                    at Context.executeSync (C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\cecil\Desktop\ProyectoFinalTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
