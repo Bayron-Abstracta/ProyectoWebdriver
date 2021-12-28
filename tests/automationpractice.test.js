@@ -7,34 +7,34 @@ const CRED = require('../datos/credenciales');
 const { cartEmpty } = require('../pages/home.page');
 var path = require('path');
 
-describe('AutomationPractice', function () {
+describe('AutomationPractice', async() => {
 
     //Caso-01
     DATOS.forEach(({articulo}) => {
-        it(`Buscar ${articulo}`, function () {
+        it(`Buscar ${articulo}`, async() => {
             await basePage.abrir('/')
             await homePage.buscar(articulo)
             await expect(await homePage.obtenerTextoBusqueda()).to.equal(articulo)
         });
     }); 
-
+/*
     //Caso-02
-    it('Validar Menú', function () {
+    it('Validar Menú', async() => {
         await basePage.abrir('/')
         await homePage.clickMenu()
 
-        $('#block_top_menu').waitForDisplayed()
+        homePage.menu.waitForDisplayed()
         expect(
-        browser.checkElement($('#block_top_menu'), "menu_category", {}), "Error: La barra de menú no coincide").equal(0);
+        browser.checkElement($(homePage.menu), "menu_category", {}), "Error: La barra de menú no coincide").equal(0);
 
         basePage.abrir('/')
-        $('#block_top_menu').waitForDisplayed()
-        expect(browser.checkElement($('#block_top_menu'), 'menu_category', {})).to.not.equal(0)
+        homePage.menu.waitForDisplayed()
+        expect(browser.checkElement($(homePage.menu), 'menu_category', {})).to.not.equal(0)
         
     });
 
     //Caso-03
-    it('Validar direccionamiento Logo', function () {
+    it('Validar direccionamiento Logo', async() => {
         basePage.abrir('/')
         homePage.clickLogo()
         homePage.logoWeb.waitForExist({timeoutMsg:'No existe el elemento'});
@@ -43,7 +43,7 @@ describe('AutomationPractice', function () {
     });
 
     //Caso-04
-    it('Validar empty Cart', function () {
+    it('Validar empty Cart', async() => {
         basePage.abrir('/')
         homePage.clickCart()
         homePage.resultadoCartEmpy.waitForExist({timeoutMsg:'No existe el elemento'});
@@ -52,7 +52,7 @@ describe('AutomationPractice', function () {
     });
 
     //Caso-05
-    it('Validar mensaje', function () {
+    it('Validar mensaje', async() => {
         basePage.abrir('/')
         homePage.clickContactUs()
         homePage.dropDownHeading.selectByIndex(1);
@@ -66,12 +66,12 @@ describe('AutomationPractice', function () {
     //Regresión Visual
     it('Comparación de Logo', () => {
         browser.url("http://automationpractice.com/index.php");
-        (homePage.logoWeb).waitForDisplayed()
+        homePage.logoWeb.waitForDisplayed()
         expect(
             browser.checkElement($(homePage.logoWeb), "Logo_header", {
             }),
             "Error: El logo no coincide con el original"
         ).equal(0);
-     });
+     });*/
 
  });

@@ -1,0 +1,241 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636662592405' stop='1636662600427'>
+    <name>AutomationPractice</name>
+    <title>AutomationPractice</title>
+    <test-cases>
+        <test-case start='1636662592405' status='broken' stop='1636662596250'>
+            <name>Buscar Printed Chiffon Dress</name>
+            <title>Buscar Printed Chiffon Dress</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.19042'/>
+            </parameters>
+            <steps>
+                <step start='1636662592407' status='passed' stop='1636662592407'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636662596179' status='passed' stop='1636662596179'>
+                    <name>Buscar artículo: Printed Chiffon Dress</name>
+                    <title>Buscar artículo: Printed Chiffon Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.barraDeBusqueda.keys is not a function</message>
+                <stack-trace>TypeError: this.barraDeBusqueda.keys is not a function
+                    at HomePage.buscar (C:\Users\Bayron\Documents\ProyectoCurso\pages\home.page.js:36:36)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Context.&lt;anonymous> (C:\Users\Bayron\Documents\ProyectoCurso\tests\automationpractice.test.js:16:13)
+                    at async Context.executeAsync (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\shim.js:123:12)
+                    at async Context.testFrameworkFnWrapper (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:57:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636662596250' status='broken' stop='1636662598262'>
+            <name>Buscar Blouse</name>
+            <title>Buscar Blouse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.19042'/>
+            </parameters>
+            <steps>
+                <step start='1636662596251' status='passed' stop='1636662596251'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636662598212' status='passed' stop='1636662598212'>
+                    <name>Buscar artículo: Blouse</name>
+                    <title>Buscar artículo: Blouse</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='de08c95a-cfc9-4a43-96e5-4c7445e43af0-attachment.png' type='image/png' size='1549040'/>
+            </attachments>
+            <failure>
+                <message>this.barraDeBusqueda.keys is not a function</message>
+                <stack-trace>TypeError: this.barraDeBusqueda.keys is not a function
+                    at HomePage.buscar (C:\Users\Bayron\Documents\ProyectoCurso\pages\home.page.js:36:36)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Context.&lt;anonymous> (C:\Users\Bayron\Documents\ProyectoCurso\tests\automationpractice.test.js:16:13)
+                    at async Context.executeAsync (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\shim.js:123:12)
+                    at async Context.testFrameworkFnWrapper (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:57:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636662598262' status='broken' stop='1636662600422'>
+            <name>Validar Menú</name>
+            <title>Validar Menú</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.19042'/>
+            </parameters>
+            <steps>
+                <step start='1636662598264' status='passed' stop='1636662598264'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636662600378' status='passed' stop='1636662600378'>
+                    <name>Obtener menú</name>
+                    <title>Obtener menú</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='332a30ac-975d-4a46-a939-6ae8e471724c-attachment.png' type='image/png' size='1567958'/>
+            </attachments>
+            <failure>
+                <message>$(...).waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: $(...).waitForDisplayed is not a function
+                    at Context.&lt;anonymous> (C:\Users\Bayron\Documents\ProyectoCurso\tests\automationpractice.test.js:26:30)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Context.executeAsync (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\shim.js:123:12)
+                    at async Context.testFrameworkFnWrapper (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:57:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636662600422' status='broken' stop='1636662600424'>
+            <name>Validar direccionamiento Logo</name>
+            <title>Validar direccionamiento Logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.19042'/>
+            </parameters>
+            <steps>
+                <step start='1636662600423' status='passed' stop='1636662600423'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636662600423' status='passed' stop='1636662600423'>
+                    <name>Obtener Logo</name>
+                    <title>Obtener Logo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>homePage.logoWeb.waitForExist is not a function</message>
+                <stack-trace>TypeError: homePage.logoWeb.waitForExist is not a function
+                    at Context.&lt;anonymous> (C:\Users\Bayron\Documents\ProyectoCurso\tests\automationpractice.test.js:40:26)
+                    at Context.executeAsync (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at Context.testFrameworkFnWrapper (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636662600424' status='broken' stop='1636662600425'>
+            <name>Validar empty Cart</name>
+            <title>Validar empty Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.19042'/>
+            </parameters>
+            <steps>
+                <step start='1636662600424' status='passed' stop='1636662600424'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636662600424' status='passed' stop='1636662600424'>
+                    <name>Obtener Carro</name>
+                    <title>Obtener Carro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>homePage.resultadoCartEmpy.waitForExist is not a function</message>
+                <stack-trace>TypeError: homePage.resultadoCartEmpy.waitForExist is not a function
+                    at Context.&lt;anonymous> (C:\Users\Bayron\Documents\ProyectoCurso\tests\automationpractice.test.js:49:36)
+                    at Context.executeAsync (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at Context.testFrameworkFnWrapper (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636662600425' status='broken' stop='1636662600426'>
+            <name>Validar mensaje</name>
+            <title>Validar mensaje</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.19042'/>
+            </parameters>
+            <steps>
+                <step start='1636662600425' status='passed' stop='1636662600425'>
+                    <name>Abrir URL</name>
+                    <title>Abrir URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636662600425' status='passed' stop='1636662600425'>
+                    <name>Obtener Contact Us</name>
+                    <title>Obtener Contact Us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>homePage.dropDownHeading.selectByIndex is not a function</message>
+                <stack-trace>TypeError: homePage.dropDownHeading.selectByIndex is not a function
+                    at Context.&lt;anonymous> (C:\Users\Bayron\Documents\ProyectoCurso\tests\automationpractice.test.js:58:34)
+                    at Context.executeAsync (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at Context.testFrameworkFnWrapper (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636662600426' status='broken' stop='1636662600426'>
+            <name>Comparación de Logo</name>
+            <title>Comparación de Logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.19042'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>homePage.logoWeb.waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: homePage.logoWeb.waitForDisplayed is not a function
+                    at Context.&lt;anonymous> (C:\Users\Bayron\Documents\ProyectoCurso\tests\automationpractice.test.js:69:28)
+                    at Context.executeAsync (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at Context.testFrameworkFnWrapper (C:\Users\Bayron\Documents\ProyectoCurso\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -80,6 +80,12 @@ const basePage = require('../pages/base.page');
         return await this.resultadoCartEmpy.getText();
     }
 
+    async ChequearMenu() {
+
+        addSetp('Obtener menu')
+        return browser.checkElement($(menu), "menu_category", {}), "Error: La barra de menú no coincide".equal(0);
+    }
+
  }
 
  module.exports = new HomePage();

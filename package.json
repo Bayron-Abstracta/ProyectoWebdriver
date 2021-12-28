@@ -1,10 +1,9 @@
 {
   "name": "proyecttest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test": "wdio wdio.conf.js",
     "testing": "set AMBIENTE=testing&&npm run test",
     "prod": "set AMBIENTE=prod&&npm run test"
   },
@@ -23,10 +22,22 @@
     "chromedriver": "^84.0.1",
     "wdio-chromedriver-service": "^6.0.3",
     "wdio-image-comparison-service": "^1.13.6",
-    "webdriverio": "^6.4.0"
+    "webdriverio": "^6.12.1"
   },
   "dependencies": {
     "allure-commandline": "^1.4.22-1",
     "mocha-allure-reporter": "^1.4.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bayron-Abstracta/ProyectoWebdriver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bayron-Abstracta/ProyectoWebdriver.git/issues"
+  },
+  "homepage": "https://github.com/Bayron-Abstracta/ProyectoWebdriver.git#readme",
+  "description": ""
 }
